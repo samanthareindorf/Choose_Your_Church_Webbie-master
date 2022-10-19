@@ -25,12 +25,12 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#myPage">
-        <img src="images/logo1.jpg" alt="logo" width="54px" height="54px" style="margin-top: -20px; margin-left:-20px">
+        <img src="FRONTEND\HOME\images\logo1.jpg" alt="logo" width="54px" height="54px" style="margin-top: -20px; margin-left:-20px">
       </a>
     </div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
-        <li><a href="Explore.php">FELLOWSHIPS</a></li>
+        <li><a href="FRONTEND/HOME/Explore.php">FELLOWSHIPS</a></li>
         <li><a href="../VIEW/signin.php">LOG IN</a></li>
         <li><a href="../VIEW/signup.php">SIGN UP</a></li>
       </ul>
