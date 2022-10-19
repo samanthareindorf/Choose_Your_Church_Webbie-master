@@ -1,0 +1,101 @@
+
+@import url('index.css');
+
+
+
+
+.Expbody .center img{
+margin: 15px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+/* Float three columns */
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 5px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+}
+
+
+/* Style the cards */
+.card {
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+.center{
+    display: block;
+     margin-left:400px;
+    width: 70%;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: black;
+    transition-duration: 2s;
+    color: white;
+}
+
+.Expbody{
+    animation: design 30s ease infinite;
+    }
+    
+    @keyframes design {
+        0% { background-color:orange}
+        20%{ background-color: rgb(240, 240, 12);}
+        40% { background-color: blue}
+        60% {background-color: rgb(35, 167, 211);}
+        80% {background-color: rgb(182, 14, 14)}
+        100% {background-color: rgb(87, 20, 20)}
+    
+        
+    }
+
+    
+
+    .btn-md {
+        width: 70px;
+        height: 30px;
+        position: relative;
+        display: inline-block;
+        padding: 1px;
+
+    }
+
+    #1stH3{
+        background-color: white;
+    }
+
+    .navbar-brand img{
+        width: 70px;
+        height: 35px;
+        padding-left: 10;
+        margin: 0;
+        
+    }

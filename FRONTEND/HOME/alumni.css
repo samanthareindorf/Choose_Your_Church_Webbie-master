@@ -1,0 +1,69 @@
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+    
+
+}
+
+#slider{
+    margin-top: 15%;
+}
+
+.img-area{
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    display: inline-block;
+    overflow: hidden;
+
+
+}
+.img-area img{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    border-radius: 25px;
+
+
+}
+
+.content h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.content p{
+   line-height: 1.9; 
+}
+
+.socials{
+    margin-top: 30px;
+}
+
+.socials i{
+    font-size: 20px;
+    margin: 0 10px;
+
+}
+
+.owl-dot{
+    display: inline-block;
+    height: 20px !important;
+    width: 20px !important;
+    background-color: #ddd !important;
+    opacity: 0.8;
+    margin: 0 10;
+    border-radius: 50%;
+
+}

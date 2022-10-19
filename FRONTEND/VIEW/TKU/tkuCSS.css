@@ -1,0 +1,61 @@
+@import url('../../HOME/index.css');
+
+ /* .carousel-inner img {
+    width: 500px;
+    height: 300px;
+ } */
+
+ .center{
+   display: block;
+   margin-left: auto;
+   margin-right:auto;
+   width: 50%;
+ }
+
+ .d1{
+   width: 210px;
+   height: 50px;
+   border-radius: 5px;
+   background-color: darkgoldenrod;
+   color: black;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+ }
+
+ .d2{
+  width: 210px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(65, 61, 61);
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.d3{
+  width: 210px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:rgb(228, 228, 53);
+  color: black;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.fa-spotify{
+  font-size: 18px;
+}
+
+ .awardSection{
+   justify-content: center; 
+  text-align: center;
+
+} 
+
+btn-primary, btn-success{
+  justify-content: flex-end;
+}
+
